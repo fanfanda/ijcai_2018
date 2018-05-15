@@ -1,6 +1,6 @@
 # ijcai_2018
-   初赛第10名，复赛第16名解决方案\n
-   最终比赛结果不太理想，没有进入top10.....\n
+      初赛第10名，复赛第16名解决方案/<br>
+   最终比赛结果不太理想，没有进入top10.....
    简单说下方案，训练数据用了7天的数据(去掉了6号的数据，因为转换率太低了)，特征大家都不会差太多，就不具体说了，转换率上午用的是去掉该记录所在的小时的剩余时间(上午)的转换率，下午就取上午的全部数据转换率，分作这几个特征来算转换率'shop_id','item_brand_id','user_star_level','user_gender_id',
 'user_occupation_id','item_id','user_age_level','item_collected_level','item_pv_level','item_price_level','item_sales_level'
    最终的融合是小组三个人模型的加权融合，最终成绩0.13907。
